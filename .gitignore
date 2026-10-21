@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+outreach-data/
+*.db
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "outreach-agents"
+version = "0.1.0"
+description = "Small-business outreach agents: find UK limited companies, build each a demo chatbot from its own website, and email them carefully."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Damon Chandio"}]
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "dnspython>=2.4"]
+
+[project.scripts]
+outreach-agents = "outreach_agents.cli:main"
+
+[tool.setuptools]
+packages = ["outreach_agents"]
