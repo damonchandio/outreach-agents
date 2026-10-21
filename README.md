@@ -1,5 +1,9 @@
 # outreach-agents
 
+![outreach-agents](.github/social-preview.png)
+
+[![tests](https://github.com/damonchandio/outreach-agents/actions/workflows/tests.yml/badge.svg)](https://github.com/damonchandio/outreach-agents/actions/workflows/tests.yml) ![licence](https://img.shields.io/badge/licence-MIT-16A6F0) ![runtime](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/damonchandio/outreach-agents?style=social)](https://github.com/damonchandio/outreach-agents/stargazers)
+
 Five small agents that do personalised B2B outreach for a one-person agency, carefully.
 
 Small agencies and freelancers can't write a thoughtful, specific email to hundreds of local businesses by hand, and the usual alternative (a scraped list and a mail merge) is spam. This project sits in between. It finds real UK limited companies, builds each one a working demo of a chat assistant trained on its own website, and sends one short, honest email with a link to that demo. It keeps volumes low, stops the moment anyone asks, and never emails someone it can't confirm is a company.
